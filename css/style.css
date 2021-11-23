@@ -89,17 +89,74 @@ img{
 .nav-ul.show li{
     padding: 15px;
 }
-
-.section{
-    margin: 20% 0 0 7%;
-    display: flex;
-    flex-direction: column;
+.p-text {
+    margin:15px;
+    color: rgba(45,253,226,0.7);
+    margin-top: 100px;
+    font-size: 26px;
+    letter-spacing: 1.5px;
 }
-
-/* .form-size{
-    width: 50px;
-    height: 100px;
-} */
+.clr-btn-txt{
+    margin: 15px;
+    background-color: rgba(45,253,226,0.7);
+    color: white;
+    padding: 7px;
+    letter-spacing: 1.5px;
+    border-radius: 12px 0px 12px 0px;
+    cursor: pointer;
+}
+.form-section {
+    max-width: 100%;
+    width:80%;
+    flex-wrap: nowrap;
+}
+.form-size:first-child{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+#input::placeholder{
+    color: rgba(8,145,0,1);
+}
+input[name="input"],
+button[type="submit"]{
+    border-radius: 25px;
+    background-color: rgba(45,253,226,0.7);
+}
+button[type="submit"]{
+    max-width: 80px;
+    width: 30%;
+    letter-spacing: 1.5px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: rgba(45,253,226,0.7);
+    cursor: pointer;
+}
+.form-size{
+    width: 35%;
+    height: 30px;
+    margin: 5px;
+}
+.ul-form{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.btn-stl{
+    margin: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+.li-stl{
+    color: rgba(45,253,226,0.7);
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    margin: 10px;
+}
 
 @media (max-width: 770px){
     .nav-bar{
